@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local SQLite databases
+*.db
+*.db-journal
+*.sqlite3
+
+# Node & Frontend dependencies
+frontend/node_modules/
+frontend/.vite/
+frontend/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+credentials.json
+
+# IDEs & Operating System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
